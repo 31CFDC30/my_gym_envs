@@ -9,10 +9,10 @@ Created on 2021/9/27 15:37
 def main():
     import gym
 
-    env = gym.make('GridWorld-v1')
-    env.reset()
-    env.render()
-    env.close()
+    env = gym.make('Parafoil-v1')
+    # env.reset()
+    # env.render()
+    # env.close()
 
 
 if __name__ == '__main__':

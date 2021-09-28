@@ -25,14 +25,14 @@ class GridEnv1(gym.Env):
 
         self.actions = ['n', 'e', 's', 'w']
 
-        self.rewards = dict();  # 回报的数据结构为字典
+        self.rewards = dict()  # 回报的数据结构为字典
         self.rewards['8_s'] = -1.0
         self.rewards['13_w'] = -1.0
         self.rewards['7_s'] = -1.0
         self.rewards['10_e'] = -1.0
         self.rewards['14_4'] = 1.0
 
-        self.t = dict();  # 状态转移的数据格式为字典
+        self.t = dict()  # 状态转移的数据格式为字典
         self.t['1_s'] = 5
         self.t['1_e'] = 2
         self.t['2_w'] = 1
